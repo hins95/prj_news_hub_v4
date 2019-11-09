@@ -4,11 +4,11 @@ self.__precacheManifest = [
     "url": "/vendors.async.js"
   },
   {
-    "revision": "650ba3cb9cd5275fe464",
+    "revision": "11ddd598045ef1f49bad",
     "url": "/umi.js"
   },
   {
-    "revision": "650ba3cb9cd5275fe464",
+    "revision": "11ddd598045ef1f49bad",
     "url": "/umi.css"
   },
   {
