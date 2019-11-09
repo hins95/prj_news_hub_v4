@@ -4,11 +4,11 @@ self.__precacheManifest = [
     "url": "/prj_news_hub_v4/dist/vendors.async.js"
   },
   {
-    "revision": "7382e62de5c9a242ead7",
+    "revision": "c635ba49f40e5b668b4b",
     "url": "/prj_news_hub_v4/dist/umi.js"
   },
   {
-    "revision": "7382e62de5c9a242ead7",
+    "revision": "c635ba49f40e5b668b4b",
     "url": "/prj_news_hub_v4/dist/umi.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/prj_news_hub_v4/dist/layouts__index.async.js"
   },
   {
-    "revision": "a44bae96c5eaa90feadbc354fbff24f8",
+    "revision": "cd236a4ac832f8f5f0e12de00687f12e",
     "url": "/prj_news_hub_v4/dist/index.html"
   }
 ];
