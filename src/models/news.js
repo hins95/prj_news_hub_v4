@@ -1,5 +1,7 @@
 import {queryNews} from "../services/news";
-import { delay } from 'dva/saga';
+import {saga} from 'dva';
+
+const { delay } = saga;
 
 export default {
 
