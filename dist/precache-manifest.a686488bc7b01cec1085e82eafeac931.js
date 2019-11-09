@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/prj_news_hub_v4/dist/layouts__index.async.js"
   },
   {
-    "revision": "cd236a4ac832f8f5f0e12de00687f12e",
+    "revision": "9311e598d1ce1019f97e2c6b39f1a7d4",
     "url": "/prj_news_hub_v4/dist/index.html"
   }
 ];

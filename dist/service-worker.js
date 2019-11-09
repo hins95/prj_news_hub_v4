@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/prj_news_hub_v4/dist/precache-manifest.5751ead8190ffb929c0c62b4d36c02f3.js"
+  "/prj_news_hub_v4/dist/precache-manifest.a686488bc7b01cec1085e82eafeac931.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "prj_news_hub"});
@@ -31,4 +31,4 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/^https:\/\/newsapi.org\//, workbox.strategies.networkFirst({ "cacheName":"api-cache", plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
+workbox.routing.registerRoute(/^https:\/\/newsapi.org\//, workbox.strategies.networkFirst({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
