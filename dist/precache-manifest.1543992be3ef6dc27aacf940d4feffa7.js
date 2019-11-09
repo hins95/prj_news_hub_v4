@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/prj_news_hub_v4/dist/pwacompat.min.js"
   },
   {
-    "revision": "a85242cc221e04f39ee4",
+    "revision": "4c590b2c0fb969bede41",
     "url": "/prj_news_hub_v4/dist/p__index.async.js"
   },
   {
