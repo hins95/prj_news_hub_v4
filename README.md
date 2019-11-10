@@ -26,6 +26,19 @@ There are no index.html in dev. add `pages/document.ejs` when necessary
 
 - Single page application that displays news articles from newsapi.org
 
+## How to dev
+
+Prerequisites: node
+
+1. Pull current project from github
+
+2. at project root, run command in terminal
+
+```shell script
+$ npm install
+$ npm start
+```
+
 ## Requirement Checklist
 
 1. Display 100 news articles from Washington Post and New York Times.
