@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/prj_news_hub_v4/dist/precache-manifest.e8a0b3aecf518e07e855b5edca13e01d.js"
+  "/prj_news_hub_v4/dist/precache-manifest.e190fe3b01d34ca0f365258f9980131b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "prj_news_hub"});
