@@ -20,6 +20,27 @@ export default {
     basePath: '/prj_news_hub_v4/dist/',
   },
   plugins: [
+    ['babel-plugin-transform-remove-console', { 'exclude': ['error', 'warn'] }],
+    [
+      'babel-plugin-import',
+      {
+        'libraryName': '@material-ui/core',
+        // Use "'libraryDirectory': ''," if your bundler does not support ES modules
+        'libraryDirectory': 'esm',
+        'camel2DashComponentName': false,
+      },
+      'core',
+    ],
+    [
+      'babel-plugin-import',
+      {
+        'libraryName': '@material-ui/icons',
+        // Use "'libraryDirectory': ''," if your bundler does not support ES modules
+        'libraryDirectory': 'esm',
+        'camel2DashComponentName': false,
+      },
+      'icons',
+    ],
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {
       antd: false,
@@ -52,8 +73,8 @@ export default {
       links: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
-        // { rel: 'apple-touch-icon', href: './assets/images/apple-touch-icon-1024x1024.png' },
-        // { rel: 'icon', href: './assets/images/favicon.ico', type: 'image/x-icon' },
+        { rel: 'apple-touch-icon', href: './assets/images/apple-touch-icon-1024x1024.png' },
+        { rel: 'icon', href: './assets/images/favicon.ico', type: 'image/x-icon' },
       ],
       routes: {
         exclude: [

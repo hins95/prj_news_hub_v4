@@ -1,13 +1,15 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import { connect } from 'dva';
 import { Avatar, Card, CircularProgress, Grid, Typography } from '@material-ui/core';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
-import { fade, makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import moment from 'moment';
 import InfiniteScroll from 'react-infinite-scroller';
 import Link from '@material-ui/core/Link';
+
+const TRANSPARENT_IMG_SRC = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -60,39 +62,6 @@ function IndexPage({
 
   const classes = useStyles();
 
-  const renderArticleCard = useCallback((article) => (
-    <Grid item md={4} sm={6} xs={12} key={article.url}>
-
-      <Card className={classes.card}>
-        <CardHeader
-          avatar={
-            <Avatar aria-label="recipe" className={classes.avatar}>
-              {article.source.name.charAt(0)}
-            </Avatar>
-          }
-          title={article.source.name}
-          subheader={moment(article.publishedAt).format('YYYY-MM-DD HH:mm')}
-        />
-        <CardMedia
-          className={classes.media}
-          image={article.urlToImage}
-          title={article.title}
-        />
-        <CardContent>
-          <Typography variant="h6" component="h2" gutterBottom>
-            <Link href={article.url} color="inherit" target="_blank" rel="noopener noreferrer">
-              {article.title}
-            </Link>
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            {article.description}
-          </Typography>
-        </CardContent>
-      </Card>
-      {/*<Paper className={classes.paper}>item</Paper>*/}
-    </Grid>
-  ), [classes.avatar, classes.card, classes.media]);
-
   return (
     <>
       {isLoading ? <div className={classes.loadingBlock}><CircularProgress size={60} thickness={4}/></div> : null}
@@ -107,7 +76,7 @@ function IndexPage({
         }
         hasMore={articles.length < 100 && articles.length !== 0}
         loader={
-          <div className={classes.loadingBlock}><CircularProgress size={60} thickness={4}/></div>
+          <div className={classes.loadingBlock} key="loader"><CircularProgress size={60} thickness={4}/></div>
         }
       >
 
@@ -119,7 +88,7 @@ function IndexPage({
           >
             {articles.map((article) => (
 
-              <Grid item md={4} sm={6} xs={12}>
+              <Grid item md={4} sm={6} xs={12} key={article.url}>
 
                 <Card className={classes.card}>
                   <CardHeader
@@ -133,7 +102,7 @@ function IndexPage({
                   />
                   <CardMedia
                     className={classes.media}
-                    image={article.urlToImage}
+                    image={article.urlToImage || TRANSPARENT_IMG_SRC}
                     title={article.title}
                   />
                   <CardContent>
