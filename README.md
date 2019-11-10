@@ -98,7 +98,7 @@ $ npm start
 
     - fetch API When Search bar input value changes
         
-        - `models/news.js` -> `setKeyword()` --> `saveKeyword` --> `initFetch` --> `scroll to top to prevent load in infinite scroll`
+        - `models/news.js` -> `setKeyword()` --> `saveKeyword` --> `initFetch`
 
 **Bonus Requirements**
 
