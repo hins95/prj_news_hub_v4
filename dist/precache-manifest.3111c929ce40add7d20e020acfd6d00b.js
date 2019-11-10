@@ -8,11 +8,11 @@ self.__precacheManifest = [
     "url": "/prj_news_hub_v4/dist/vendors.async.js"
   },
   {
-    "revision": "911504ec653962169024",
+    "revision": "7fe29a99fecb56e1c080",
     "url": "/prj_news_hub_v4/dist/umi.js"
   },
   {
-    "revision": "911504ec653962169024",
+    "revision": "7fe29a99fecb56e1c080",
     "url": "/prj_news_hub_v4/dist/umi.css"
   },
   {

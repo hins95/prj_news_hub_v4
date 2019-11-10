@@ -67,6 +67,9 @@ export default {
 
         yield put({ type: 'saveKeyword', payload });
         yield put({ type: 'initFetch', payload: { isAppend: false, page: 1 } });
+
+        //fix for infinite scroll
+        yield window.scrollTo(0,0);
         // return {...state, ...action.payload};
       }, { type: 'takeLatest' },
     ],
