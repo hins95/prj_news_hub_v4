@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "revision": "686771a8050a58c7e0b0ccfc3fdf972b",
+    "revision": "b294eb89e150f27cc7345d0977ee416c",
     "url": "/prj_news_hub_v4/dist/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/prj_news_hub_v4/dist/pwacompat.min.js"
   },
   {
-    "revision": "6d97ac5aff10b98beb5c",
+    "revision": "fac715ce8d67eea20c4e",
     "url": "/prj_news_hub_v4/dist/p__index.async.js"
   },
   {
