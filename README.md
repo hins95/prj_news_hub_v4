@@ -113,6 +113,7 @@ $ npm start
 2. Proper SEO tags and open graph tags.
 
     - OpenGraph: `.umirc.js --> metas`
+        - you can see preview demo link in whatsapp
     
     - SEO Tags: `.umirc.js --> metas`
     
