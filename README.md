@@ -21,6 +21,11 @@ https://hins95.github.io/prj_news_hub_v4/dist/index.html#/
 - UmiJS / Dva JS
     - React Library
     - Integrated Redux / Saga
+- qs
+    - React Library to parse obj to query params
+- react-infinite-scroller
+    - React Library to implement infinite scroll
+  
 
 ## Features
 
@@ -132,6 +137,11 @@ $ npm start
     - PWA's app config source `src/manifest.json`
     
     - PWA's top bar color is defined in head meta's `theme-color` in `./umirc.js` (android only)
+    
+    - iphone/android: browse demo link -> add to home screen
+    
+    - Mac: Chrome -> install as apps
+    
 
 7. Performance optimization, avoid unnecessary calculation or rendering.
 
