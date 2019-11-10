@@ -8,11 +8,11 @@ self.__precacheManifest = [
     "url": "/prj_news_hub_v4/dist/vendors.async.js"
   },
   {
-    "revision": "9b004579e443301eabca",
+    "revision": "911504ec653962169024",
     "url": "/prj_news_hub_v4/dist/umi.js"
   },
   {
-    "revision": "9b004579e443301eabca",
+    "revision": "911504ec653962169024",
     "url": "/prj_news_hub_v4/dist/umi.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/prj_news_hub_v4/dist/p__index.async.js"
   },
   {
-    "revision": "91d66624d7d96849670b91c5f86d0f38",
+    "revision": "576ef0bd04e4fd5c84b51a2276a5cd5c",
     "url": "/prj_news_hub_v4/dist/manifest.json"
   },
   {

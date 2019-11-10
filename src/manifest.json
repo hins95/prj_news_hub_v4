@@ -1,0 +1,16 @@
+{
+  "name": "US News Hub",
+  "short_name": "US News Hub",
+  "icons": [
+    {
+      "src": "./assets/images/apple-touch-icon-1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ],
+
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "./?homescreen=true",
+  "orientation": "portrait"
+}

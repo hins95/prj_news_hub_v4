@@ -10,9 +10,9 @@ https://hins95.github.io/prj_news_hub_v4/dist/index.html#/
     - contains workbox options
     - webpack options / plugins
     - routing
-    - HTML <head> contents
+    - HTML /head contents
 
-There are no index.html in dev. add `pages/document.ejs` when necessary
+- There are no index.html in dev. add `pages/document.ejs` when necessary
 
 ## Used Tools
 
@@ -38,6 +38,8 @@ Prerequisites: node
 $ npm install
 $ npm start
 ```
+
+3. Change `/prj_news_hub_v4/dist/` to relative deployment path in `.umirc.js`
 
 ## Requirement Checklist
 
@@ -120,6 +122,7 @@ $ npm start
 6. Progressive web application (PWA) to cache API responses and image for offline access.
 
     - `.umirc.js` --> `workBoxOptions` `Cachable Response`
+    - PWA's app config source `src/manifest.json`
 
 7. Performance optimization, avoid unnecessary calculation or rendering.
 
@@ -130,3 +133,5 @@ $ npm start
     - debounced update search keyword by redux saga delay
     
     - removed console logs after compiled
+
+    - final bundle size <= 1MB (excluding images)

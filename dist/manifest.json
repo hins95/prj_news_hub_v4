@@ -1,1 +1,1 @@
-{"name":"prj_news_hub","short_name":"prj_news_hub","display":"fullscreen","scope":"/","start_url":"./?homescreen=true","orientation":"portrait"}
+{"name":"US News Hub","short_name":"US News Hub","icons":[{"src":"/prj_news_hub_v4/dist/assets/images/apple-touch-icon-1024x1024.png","sizes":"1024x1024","type":"image/png"}],"display":"fullscreen","scope":"/","start_url":"./?homescreen=true","orientation":"portrait"}

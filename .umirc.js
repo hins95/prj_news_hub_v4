@@ -14,7 +14,7 @@ export default {
       ],
     },
   ],
-  base: ' /prj_news_hub_v4/dist/',
+  base: '/prj_news_hub_v4/dist/',
   publicPath: '/prj_news_hub_v4/dist/',
   manifest: {
     basePath: '/prj_news_hub_v4/dist/',
