@@ -43,6 +43,12 @@ $ npm start
 
 ## Requirement Checklist
 
+0. Assets such as application icons and colour reference can be found in zip file.
+
+    - For Colors, most are material ui colors. header colors are defined in styled component in `./layouts/Header/index.jsx`
+    
+    - app icons has been included in head metas (`./.umirc.js`), and `./manifest.json`
+
 1. Display 100 news articles from Washington Post and New York Times.
     a. Use card component to display each news article.
         
@@ -122,7 +128,10 @@ $ npm start
 6. Progressive web application (PWA) to cache API responses and image for offline access.
 
     - `.umirc.js` --> `workBoxOptions` `Cachable Response`
+    
     - PWA's app config source `src/manifest.json`
+    
+    - PWA's top bar color is defined in head meta's `theme-color` in `./umirc.js`
 
 7. Performance optimization, avoid unnecessary calculation or rendering.
 

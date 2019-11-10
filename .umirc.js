@@ -84,6 +84,7 @@ export default {
         {property: "og:image:alt", content: "Display 100 news articles from Washington Post and New York Times."},
         {name: "description", content: "Display 100 news articles from Washington Post and New York Times."},
         {name: "keywords", content: "us news,Washington Post,New York Times"},
+        {name: "theme-color", content: "#3c3b63"},
 
       ],
       links: [

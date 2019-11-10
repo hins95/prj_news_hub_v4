@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "revision": "d7ba0690b10e49e0cec28fd3434661bc",
+    "revision": "b294eb89e150f27cc7345d0977ee416c",
     "url": "/prj_news_hub_v4/dist/index.html"
   },
   {
