@@ -14,7 +14,7 @@ export default {
       ],
     },
   ],
-  base: '/prj_news_hub_v4/dist/',
+  base: ' /prj_news_hub_v4/dist/',
   publicPath: '/prj_news_hub_v4/dist/',
   manifest: {
     basePath: '/prj_news_hub_v4/dist/',
@@ -69,7 +69,23 @@ export default {
 
       // hd: true,
       fastClick: true,
-      metas: [{ charset: 'utf-8' }],
+      metas: [
+        { charset: 'utf-8' },
+
+        {property: "og:title", content: "US News Hub"},
+        {property: "og:type", content: "website"},
+        {property: "og:url", content: "https://hins95.github.io/prj_news_hub_v2/dist/index.html#/"},
+        {property: "og:image", content: "./assets/images/preview-screens/mobile.png"},
+        // {property: "og:image:secure_url", content: "https://dummyimage.com/400x300/000/fff"},
+        {property: "og:image:type", content: "image/jpeg"},
+        {property: "og:image:width", content: "640"},
+        {property: "og:image:height", content: "1216"},
+        {property: "og:image:alt", content: "Display 100 news articles from Washington Post and New York Times."},
+        {property: "og:image:alt", content: "Display 100 news articles from Washington Post and New York Times."},
+        {name: "description", content: "Display 100 news articles from Washington Post and New York Times."},
+        {name: "keywords", content: "us news,Washington Post,New York Times"},
+
+      ],
       links: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
