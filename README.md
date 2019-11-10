@@ -131,7 +131,7 @@ $ npm start
     
     - PWA's app config source `src/manifest.json`
     
-    - PWA's top bar color is defined in head meta's `theme-color` in `./umirc.js`
+    - PWA's top bar color is defined in head meta's `theme-color` in `./umirc.js` (android only)
 
 7. Performance optimization, avoid unnecessary calculation or rendering.
 

@@ -85,7 +85,7 @@ export default {
         {name: "description", content: "Display 100 news articles from Washington Post and New York Times."},
         {name: "keywords", content: "us news,Washington Post,New York Times"},
         {name: "theme-color", content: "#3c3b63"},
-        {name: "apple-mobile-web-app-status-bar-style", content: "black-translucent"},
+        // {name: "apple-mobile-web-app-status-bar-style", content: "black-translucent"},
 
       ],
       links: [

@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
 
 
 function IndexPage({
-                     // totalResults,
+                     totalResults,
                      articles,
                      dispatch,
                      isLoading,
@@ -41,7 +41,7 @@ function IndexPage({
             payload: { isAppend: true, page },
           })
         }
-        hasMore={articles.length < 100 && articles.length !== 0}
+        hasMore={articles.length < totalResults && articles.length < 100 && articles.length !== 0}
         loader={
           <div className={classes.loadingBlock} key="loader"><CircularProgress size={60} thickness={4}/></div>
         }
